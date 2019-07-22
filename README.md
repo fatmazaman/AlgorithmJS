@@ -1,2 +1,3 @@
 # AlgorithmJS
-Algorithm in Javascript
+Javascript coding by mastering data structures and algorithms.
+
