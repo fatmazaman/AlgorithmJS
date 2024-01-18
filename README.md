@@ -5,7 +5,8 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 2. Palindrome
 3. reverseInteger
 4. isEquivalent
-
+5. usefulFunctions
+5. isPrime/printPrime
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
