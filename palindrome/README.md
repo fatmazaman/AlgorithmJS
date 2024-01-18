@@ -20,4 +20,3 @@
 2. reverse the array by method called reverse().
 3. convert array into string.
 4. return true/false based of equality of initial string and reversed string.
-

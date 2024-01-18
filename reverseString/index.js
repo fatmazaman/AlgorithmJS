@@ -18,4 +18,4 @@ function reversestr3(str3){
     return str3.split('').reduce((rev, char) => char +rev, '')
 }
 
-module.exports = reverse, reversestr2, reversestr3
+module.exports = { reverse, reversestr2, reversestr3 }
