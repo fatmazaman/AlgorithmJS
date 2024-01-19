@@ -14,7 +14,7 @@ const matrix = (rows, columns) => {
 // hypotenuse
 const hypotenuse = (a, b) => {
     function square(x) {
-        return x*x;
+        return x*x
         }
     return Math.sqrt(square(a) + square(b))
 }
@@ -41,5 +41,23 @@ const add_all = array => {
         return 'empty string'
     }
 }
+// Occurrence of Charater in a String
+const occurChar = (str, a) => {
+    if (!a || !str) {
+        return 0 // Handle cases where a is not provided or the string is empty
+    }
 
-module.exports = { matrix, hypotenuse, is_integer, add_all }
+    var count = 0
+    var pos = str.indexOf(a)
+
+    while (pos !== -1) {
+        count++
+        pos = str.indexOf(a, pos + 1)
+    }
+
+    return count
+}
+
+
+
+module.exports = { matrix, hypotenuse, is_integer, add_all, occurChar }

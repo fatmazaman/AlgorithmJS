@@ -1,4 +1,4 @@
-const { matrix, hypotenuse, is_integer, add_all} = require('./index.js')
+const { matrix, hypotenuse, is_integer, add_all, occurChar} = require('./index.js')
 
 // matrix 
 test('Matrix function should create a jagged array with the specified number of rows and columns', () => {
@@ -96,4 +96,23 @@ test('add_all function should return "empty string" if the array is empty', () =
 test('add_all function should return the sum even if the array contains a single element', () => {
     // Test case 6: Array with a single element
     expect(add_all([42])).toBe(42)
+})
+
+// occurChar
+
+test('occurChar should correctly count occurrences of a character in a string', () => {
+    // Test case 1: Single occurrence
+    expect(occurChar('hello', 'e')).toBe(1)
+
+    // Test case 2: Multiple occurrences
+    expect(occurChar('banana', 'a')).toBe(3)
+
+    // Test case 3: No occurrence
+    expect(occurChar('world', 'z')).toBe(0)
+
+    // Test case 4: Empty string
+    expect(occurChar('', 'x')).toBe(0)
+
+    // Test case 5: Character not provided
+    expect(occurChar('testing', undefined)).toBe(0)
 })

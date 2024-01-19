@@ -44,4 +44,27 @@ const printPrime = n => {
     }
 }
 
-module.exports = { isPrime, printPrime }
+const primeFactors = n => {
+    // Print the number of 2s that divide n 
+    while (n % 2 === 0) {
+        console.log(2)
+        n = n / 2
+    }
+
+    // n must be odd at this point, so i = i + 2
+    for (let i = 3; i * i <= n; i = i + 2) {
+        while (n % i === 0) {
+            console.log(i)
+            n = n / i
+        }
+    }
+
+    // If n is a prime number 
+    if (n > 2) {
+        console.log(n)
+    }
+}
+
+// Time complexity: O(sqrt(n))
+
+module.exports = { isPrime, printPrime, primeFactors }

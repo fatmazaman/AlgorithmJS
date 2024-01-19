@@ -6,7 +6,7 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 3. reverseInteger
 4. isEquivalent
 5. usefulFunctions
-6. isPrime/printPrime
+6. isPrime/printPrime and Prime Factorization 
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
@@ -20,4 +20,4 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 - Number.MAX_SAFE_INTEGER - the largest integer.
 - Number.MIN_SAFE_INTEGER - the smallest integer.
 - Infinity - The only thing greater than Number.MAX_Value is Infinity.
-#### Size Summary --> -INFINITY < Number.MIN_SAFE_INTEGER < Number.MIN_VALUE < 0 < Number.MAX_SAFE_INTEGER < Number.MAX_VAlUE < INFINITY.
+- **Size Summary** --> -INFINITY < Number.MIN_SAFE_INTEGER < Number.MIN_VALUE < 0 < Number.MAX_SAFE_INTEGER < Number.MAX_VAlUE < INFINITY.
