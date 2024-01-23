@@ -11,7 +11,8 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 8. isUgly - numbers as those whose only prime factors are 2,3 or 5.
 9. encode_decode_Id - String shortening 
 10. array_Functions
-11. keylogger - This is for educational purposes only.
+11. keylogger - This is for educational purposes only
+12. Annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)

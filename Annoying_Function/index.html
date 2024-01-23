@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annoying Popup</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden /* Prevent scrolling */
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  function createAnnoyingPopup() {
+    const popup = document.createElement('div')
+    popup.innerText = 'You found the annoying popup!'
+    popup.style.position = 'fixed'
+    popup.style.backgroundColor = 'yellow'
+    popup.style.color = 'red'
+    popup.style.padding = '10px'
+    popup.style.border = '2px solid red'
+    popup.style.borderRadius = '5px'
+
+    document.body.appendChild(popup)
+
+    function movePopup() {
+      const x = Math.random() * window.innerWidth
+      const y = Math.random() * window.innerHeight
+      popup.style.left = x + 'px'
+      popup.style.top = y + 'px'
+    }
+
+    const intervalId = setInterval(movePopup, 1000)
+
+    // stop the annoying popup after 10 seconds
+    // setTimeout(() => clearInterval(intervalId), 10000)
+  }
+
+  // activate the function
+  createAnnoyingPopup()
+</script>
+
+</body>
+</html>
