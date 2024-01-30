@@ -13,6 +13,8 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 10. array_Functions
 11. keylogger - This is for educational purposes only
 12. Annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
+13. Http_Request_Response
+14. array_Range - Function that generates an array of numbers within a specified range.
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
