@@ -24,6 +24,4 @@ describe('pascalTriangle function', () => {
   it('returns 10 for cell (5, 2)', () => {
     expect(pascalTriangle(5, 2)).toBe(10)
   })
-
-  // Add more test cases as needed
 })
