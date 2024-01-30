@@ -3,17 +3,16 @@
 
 function getNthFiboBetter(n, lastlast, last) {
     if (n == 0) {
-        return lastlast;
+        return lastlast
     }
     if (n == 1) {
-        return last;
+        return last
     }
     
-    return getNthFiboBetter(n-1, last, lastlast + last);
+    return getNthFiboBetter(n-1, last, lastlast + last)
 }
 for (var i=1; i < 10; i++) {
-    console.log(getNthFiboBetter(i,0,1));
+    console.log(getNthFiboBetter(i,0,1))
 }
 
 module.exports = getNthFiboBetter
-
