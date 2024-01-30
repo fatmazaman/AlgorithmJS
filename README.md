@@ -15,7 +15,8 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 12. annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
 13. http_Request_Response - 
 14. array_Range - Function that generates an array of numbers within a specified range.
-15. fibonacci_Sequence- Print the n-th term of the Fibonacci Sequence
+15. fibonacci_Sequence - Print the n-th term of the Fibonacci Sequence
+16. pascal_Triangle - A recursive implementation of Pascal's Triangle.
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
