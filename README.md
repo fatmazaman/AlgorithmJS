@@ -1,8 +1,8 @@
 # AlgorithmJS
 An introduction to Understanding and impelementing Core Data Structure and Algorithms Fundamentals.
 
-1. Reverse String
-2. Palindrome
+1. reverse String
+2. palindrome
 3. reverseInteger
 4. isEquivalent
 5. useful_Functions
@@ -12,9 +12,10 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 9. encode_decode_Id - String shortening 
 10. array_Functions
 11. keylogger - This is for educational purposes only
-12. Annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
-13. Http_Request_Response
+12. annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
+13. http_Request_Response - 
 14. array_Range - Function that generates an array of numbers within a specified range.
+15. fibonacci_Sequence- Print the n-th term of the Fibonacci Sequence
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
