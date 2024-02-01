@@ -17,6 +17,7 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 14. array_Range - Function that generates an array of numbers within a specified range.
 15. fibonacci_Sequence - Print the n-th term of the Fibonacci Sequence
 16. pascal_Triangle - A recursive implementation of Pascal's Triangle.
+17. Searching - A task of looking for a specific element inside a data structure.
 
 ### Big-O Notation 
 - Implementtaion of an algorithm with respect to both time(execution time) and space(memeory consumed)
