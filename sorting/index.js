@@ -125,7 +125,7 @@ function mergeSort(array) {
 
     var midpoint = Math.floor((array.length)/2),
         leftArray = array.slice(0, midpoint),
-        rightArray = array.slice(midpoint);
+        rightArray = array.slice(midpoint)
 
     return merge(mergeSort(leftArray), mergeSort(rightArray))
 }

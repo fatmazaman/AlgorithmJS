@@ -13,7 +13,7 @@ An introduction to Understanding and impelementing Core Data Structure and Algor
 10. array_Functions
 11. keylogger - This is for educational purposes only
 12. annoying_Function - JavaScript that creates an annoying popup that moves randomly around the screen
-13. http_Request_Response - 
+13. isParenthesisValid - This JavaScript function checks whether a string containing parentheses is valid or not. 
 14. array_Range - Function that generates an array of numbers within a specified range.
 15. fibonacci_Sequence - Print the n-th term of the Fibonacci Sequence
 16. pascal_Triangle - A recursive implementation of Pascal's Triangle.
